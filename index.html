@@ -6,10 +6,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,700&family=Raleway:wght@700&display=swap" rel="stylesheet">
     <title>Barber Shop</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="stylesheet" href="/styles/styles.css">
   </head>
 
   <body>
+    <!-- PageHeader-->
     <header class="page-header">
       <img src="images/Logo.png" alt="logo barber" />
       <nav class="header-navigation">
@@ -27,6 +32,7 @@
      
     </header>
     <main>
+      <!-- HeroSection-->
       <section class="hero-section">
         <h3 class="hero-sub-title-section">A hair salon for men in Kyiv</h3>
         <h2 class="hero-title-section">Barber Shop</h2>
@@ -35,7 +41,8 @@
           We work quickly, carefully and with style.
         </p>
       </section>
-      <section class="page-section">
+       <!-- AbouSection-->
+      <section class="page-section about">
         <h3  class="sub-title-section">About</h3>
         <div>
           <img width="270 " height="445" src="images/img 1.png" alt="model1" />
@@ -58,7 +65,8 @@
           <button class="online-booking-button">Online booking</button>
         </div>
       </section>
-      <section class="page-section">
+       <!-- ServicesSection-->
+      <section class="page-section services">
         <h3 class="sub-title-section">Spend your time with the best masters</h3>
         <h2 class="title-section">Services and prices</h2>
         <ul class="unstyled-list">
@@ -75,7 +83,8 @@
         </ul>
         <button class="online-booking-button">Online booking</button>
       </section>
-      <section class="page-section">
+       <!-- PortofolioSection-->
+      <section class="page-section portofolio">
         <div class="cards-left-side">
           <div class="card">
             <h3 class="card-title">600<sup class="sup">+</sup></h3>
@@ -103,39 +112,42 @@
           </p>
         </div>
       </section>
-      <section class="page-section">
+       <!-- OurBarberssection-->
+      <section class="page-section our">
         <h3 class="sub-title-section">For true enjoyers of the atmosphere</h3>
         <h2 class="title-section">Our barbers</h2>
         <ul class="unstyled-list our-barbers">
           <li>  
-            <img class="image" src="images/img1.jpg" alt="John Smith" />
+            <img class="image" src="images/img1 (1).jpg" alt="John Smith" />
             <h3 class="title">John Smith</h3>
             <p class="ocupation">Extreme Barber</p>
           </li >
           <li> 
-            <img class="image"  src="images/img2.jpg" alt="Michele Doe" />
+            <img class="image"  src="images/img2 (1).jpg" alt="Michele Doe" />
             <h3 class="title">Michele Doe</h3>
             <p class="ocupation">Extreme Barber</p>
           </li>
           <li> 
-            <img class="image"  src="images/img3.jpg" alt="Alan Black" />
+            <img class="image"  src="images/img3 (1).jpg" alt="Alan Black" />
             <h3 class="title">Alan Black</h3>
             <p class="ocupation">Extreme Barber</p>
           </li>
         </ul>
       </section>
-      <section class="page-section">
-        <h3>In Latin, "barba" means "beard"</h3>
+       <!-- ActivitiesSection-->
+      <section class="page-section activities">
+        <h3 class="sub-title-section">In Latin, "barba" means "beard"</h3>
         <ul class="unstyled-list">
-          <li>  <img src="images/Rectangle 25.jpg" alt="action" /> </li>
-          <li>  <img src="images/Rectangle 26.jpg" alt="action2" /></li>
-          <li>  <img src="images/Rectangle 27.jpg" alt="action3" /></li>
-          <li>  <img src="images/Rectangle 28.jpg" alt="action4" /></li>
+          <li>  <img src="images/Rectangle 25 (1).jpg" alt="action" /> </li>
+          <li>  <img src="images/Rectangle 26 (1).jpg" alt="action2" /></li>
+          <li>  <img src="images/Rectangle 27 (1).jpg" alt="action3" /></li>
+          <li>  <img src="images/Rectangle 28 (1).jpg" alt="action4" /></li>
         </ul>
       </section>
-      <section class="page-section">
+       <!-- OnlineBookingSection-->
+      <section class="page-section online-booking">
         <div>
-<h3>Online-booking</h3>
+<h3 class="sub-title-section" >Online-booking</h3>
 <input placeholder="Name*">
 <input placeholder="Phone*">
 <input placeholder="Message*">
@@ -146,9 +158,9 @@
 <H3>Contacts</H3>
 <address>
   <ul class="unstyled-list">
-    <li> <a href="">st. Vasilkovaya, 7A Kiev, 08132</a></li>
-    <li> <a href="tel:+38 044 111 11 11">+38 044 111 11 11</a></li>
-    <li><a href="mailto:barbershop@email.com">barbershop@email.com</a>
+    <li> <a class="link" href="">st. Vasilkovaya, 7A Kiev, 08132</a></li>
+    <li> <a class="link" href="tel:+38 044 111 11 11">+38 044 111 11 11</a></li>
+    <li><a class="link" href="mailto:barbershop@email.com">barbershop@email.com</a>
     </li>
   </ul>
 
@@ -159,11 +171,12 @@
         </div>
       </section>
     </main>
+    <!-- PageFooter-->
     <footer>
       <p> &copy;Copyright 2020</p>
       <ul class="unstyled-list">
-        <li><a href="">Instagram</a></li>
-        <li><a href="">Youtube</a></li>
+        <li><a class="link" href="">Instagram</a></li>
+        <li><a class="link" href="">Youtube</a></li>
       </ul>
     </footer>
   </body>
